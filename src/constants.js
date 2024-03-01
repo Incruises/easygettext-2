@@ -4,6 +4,7 @@ exports.DEFAULT_ATTRIBUTES = [
   'get-text',
   'i18n',
   'translate',
+  'v-translate'
 ];
 
 exports.DEFAULT_FILTERS = [
@@ -15,6 +16,7 @@ exports.DEFAULT_VUE_GETTEXT_FUNCTIONS = {
   '_': ['msgid'],
   '$t': ['msgid'],
   '$gettext': ['msgid'],
+  'gettext': ['msgid'],
   '$ngettext': ['msgid', 'plural', null],
   '$pgettext': ['msgctxt', 'msgid'],
   '$npgettext': ['msgctxt', 'msgid', 'plural', null],
