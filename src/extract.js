@@ -208,7 +208,7 @@ exports.Extractor = class Extractor {
       filters: constants.DEFAULT_FILTERS,
       filterPrefix: constants.DEFAULT_FILTER_PREFIX,
       lineNumbers: false,
-      removeHTMLWhitespaces: false,
+      removeHTMLWhitespaces: true,
     }, options);
 
     /* Translation items, indexed as:
