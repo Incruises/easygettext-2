@@ -351,6 +351,10 @@ exports.Extractor = class Extractor {
       }
     }
 
+     catalog.items = catalog.items.filter = (item) => {
+      return !!item?.msgid
+    }
+
     catalog.items.sort((a, b) => a.msgid.localeCompare(b.msgid));
     return catalog.toString();
   }
